@@ -90,6 +90,12 @@
         <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
       </symbol>
         <h1 id="judul" style="cursor: pointer; color: blue; text-decoration: underline;">Ministore</h1>
+       <script>
+      document.getElementById("judul").addEventListener("click", function() {
+        document.title = "Login"; // Ganti judul tab
+        window.location.href = "login.html"; // Redirect ke halaman login
+      });
+    </script>
     </svg>  
 
     <div class="search-popup">
