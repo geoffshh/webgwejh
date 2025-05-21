@@ -89,13 +89,6 @@
       <symbol xmlns="http://www.w3.org/2000/svg" id="navbar-icon" viewBox="0 0 16 16">
         <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
       </symbol>
-        <h1 id="judul" style="cursor: pointer; color: blue; text-decoration: underline;">Ministore</h1>
-       <script>
-      document.getElementById("judul").addEventListener("click", function() {
-        document.title = "Login"; // Ganti judul tab
-        window.location.href = "login.html"; // Redirect ke halaman login
-      });
-    </script>
     </svg>  
 
     <div class="search-popup">
@@ -176,6 +169,9 @@
                 <li class="nav-item dropdown">
                   <a class="nav-link me-4 dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Halaman</a>
                   <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link me-4" href="login.html">Login</a>
+                    </li>
                     <li>
                       <a href="about.html" class="dropdown-item">Tentang</a>
                     </li>
